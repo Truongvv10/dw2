@@ -1,2 +1,2 @@
-docker stop dockercontainer
-docker rm dockercontainer
+docker stop container_missingManual
+docker rm container_missingManual

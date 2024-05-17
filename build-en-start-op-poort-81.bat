@@ -1,2 +1,2 @@
-docker build -t dockerimage:tag1 .
-docker run -dt --name dockercontainer dockerimage:tag1 –p 81:80
+docker build -t image_nginx:tag1 .
+docker run --name container_missingManual -dt -p 81:80 image_nginx:tag1
